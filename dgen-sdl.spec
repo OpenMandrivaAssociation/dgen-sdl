@@ -1,5 +1,5 @@
 %define name dgen-sdl
-%define version 1.27
+%define version 1.28
 %define release %mkrel 1
 
 Name:		%{name}
