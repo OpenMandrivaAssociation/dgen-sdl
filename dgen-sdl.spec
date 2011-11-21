@@ -43,8 +43,8 @@ rm -rf %{buildroot}
 %defattr(-,root,root,0755)
 %doc AUTHORS ChangeLog COPYING INSTALL README
 %{_bindir}/dgen
-%{_bindir}/tobin
+%{_bindir}/dgen_tobin
 %{_mandir}/man1/dgen.1*
-%{_mandir}/man1/tobin.1*
+%{_mandir}/man1/dgen_tobin.1*
 %{_mandir}/man5/dgenrc.5*
 
