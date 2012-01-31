@@ -1,16 +1,11 @@
-%define name dgen-sdl
-%define version 1.28
-%define release %mkrel 1
-
-Name:		%{name}
+Name:		dgen-sdl
 Summary:	DGen Sega Genesis emulator, ported to SDL
-Version:	%{version}
-Release:	%{release}
-Source0:	%{name}-%{version}.tar.gz
+Version:	1.29
+Release:	%mkrel 1
+Source0:	http://sourceforge.net/projects/dgen/files/dgen/%{version}/%{name}-%{version}.tar.gz
 URL:		http://dgen.sourceforge.net/
 Group:		Emulators
 License:	BSD
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	SDL-devel
 %ifarch %{ix86}
 BuildRequires:	nasm
@@ -41,7 +36,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,0755)
-%doc AUTHORS ChangeLog COPYING INSTALL README
+%doc AUTHORS ChangeLog COPYING README BUGS
 %{_bindir}/dgen
 %{_bindir}/dgen_tobin
 %{_mandir}/man1/dgen.1*
