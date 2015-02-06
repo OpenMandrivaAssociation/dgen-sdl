@@ -1,7 +1,7 @@
 Name:		dgen-sdl
 Summary:	DGen Sega Genesis emulator, ported to SDL
 Version:	1.32
-Release:	1
+Release:	2
 Group:		Emulators
 License:	BSD
 URL:		http://dgen.sourceforge.net/
