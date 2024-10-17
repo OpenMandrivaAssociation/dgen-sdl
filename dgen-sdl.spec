@@ -4,7 +4,7 @@ Version:	1.32
 Release:	2
 Group:		Emulators
 License:	BSD
-URL:		http://dgen.sourceforge.net/
+URL:		https://dgen.sourceforge.net/
 Source0:	http://sourceforge.net/projects/dgen/files/dgen/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
